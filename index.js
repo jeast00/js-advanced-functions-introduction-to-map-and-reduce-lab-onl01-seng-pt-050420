@@ -16,7 +16,7 @@ const mapToNoChange = function(source) {
   return num;
 }
 
-const napToDouble = function(source) {
+const mapToDouble = function(source) {
   let doubleNum = [];
   for(let i = 0; i < source.length; i ++) {
     doubleNum.push(2 * source[i]);
