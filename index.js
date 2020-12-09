@@ -40,7 +40,9 @@ const reduceToTotal = function(source, start = 0) {
     return total;
 }
 
-const reduceToAllTrue = function(source)
+const reduceToAllTrue = function(source) {
+  
+}
 
 
 
