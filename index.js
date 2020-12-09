@@ -29,5 +29,6 @@ const mapToSquare = function(source) {
   for(let i = 0; i < source.length; i++) {
     squaredNum.push(Math.pow(2, source[i]))
   }
+  return squaredNum;
 }
 
