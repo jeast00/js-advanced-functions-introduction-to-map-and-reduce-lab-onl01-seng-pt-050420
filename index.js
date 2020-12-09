@@ -42,7 +42,7 @@ const reduceToTotal = function(source, start = 0) {
 
 const reduceToAllTrue = function(source) {
   for(let i = 0; i < source.length; i++) {
-    if (!source[i]) 
+    if (!source[i]) return false
   }
 }
 
