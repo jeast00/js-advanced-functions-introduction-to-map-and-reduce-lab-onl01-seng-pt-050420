@@ -8,4 +8,11 @@ const mapToNegativize = function(source) {
   return negNum;
 }
 
+const mapToNoChange = function(source) {
+  let num = [];
+  for(let i = 0; i < source.length; i++) {
+    num.push(source[i]);
+  }
+  return num;
+}
 
