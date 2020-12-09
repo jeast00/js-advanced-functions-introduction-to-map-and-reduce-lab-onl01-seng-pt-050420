@@ -24,3 +24,10 @@ const mapToDouble = function(source) {
   return doubleNum;
 }
 
+const mapToSquare = function(source) {
+  let squaredNum = [];
+  for(let i = 0; i < source.length; i++) {
+    squaredNum.push(Math.pow(2, source[i]))
+  }
+}
+
