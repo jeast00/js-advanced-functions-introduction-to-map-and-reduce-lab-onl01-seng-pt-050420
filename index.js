@@ -35,8 +35,9 @@ const mapToSquare = function(source) {
 const reduceToTotal = function(source, start = 0) {
     let total = start;
     for(let i = 0; i < source.length; i++) {
-      
+      total = total + source[i];
     }
+    return total;
 }
 
 
