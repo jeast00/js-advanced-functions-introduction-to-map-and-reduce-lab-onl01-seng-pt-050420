@@ -47,6 +47,13 @@ const reduceToAllTrue = function(source) {
   return true
 }
 
+const reduceToAnyTrue = function(source) {
+  for(let i = 0; i < source.length; i++) {
+    if (source[i]) return true
+  }
+  return false
+}
+
 
 
 
