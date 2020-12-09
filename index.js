@@ -44,6 +44,7 @@ const reduceToAllTrue = function(source) {
   for(let i = 0; i < source.length; i++) {
     if (!source[i]) return false
   }
+  return true
 }
 
 
