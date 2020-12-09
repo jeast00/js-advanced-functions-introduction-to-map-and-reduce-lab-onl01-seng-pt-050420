@@ -32,8 +32,11 @@ const mapToSquare = function(source) {
   return squaredNum;
 }
 
-const reduceToTotal = function(source, start) {
-    
+const reduceToTotal = function(source, start = 0) {
+    let total = start;
+    for(let i = 0; i < source.length; i++) {
+      
+    }
 }
 
 
