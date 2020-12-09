@@ -21,6 +21,6 @@ const napToDouble = function(source) {
   for(let i = 0; i < source.length; i ++) {
     doubleNum.push(source[i]*2);
   }
-  return d
+  return doubleNum;
 }
 
