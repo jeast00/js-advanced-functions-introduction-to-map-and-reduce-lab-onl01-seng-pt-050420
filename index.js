@@ -27,7 +27,7 @@ const mapToDouble = function(source) {
 const mapToSquare = function(source) {
   let squaredNum = [];
   for(let i = 0; i < source.length; i++) {
-    squaredNum.push(source[i] * source[i])
+    squaredNum.push(source[i] * source[i]);
   }
   return squaredNum;
 }
